@@ -28,7 +28,7 @@ def analyze_image_with_ai(image):
     if not api_key:
         return None, "Please enter an API Key first."
     
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-2.0-flash-exp')
     
     # We ask the AI to be a Halal Auditor
     prompt = """
