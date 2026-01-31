@@ -1,6 +1,7 @@
 streamlit
-pytesseract
+google-generativeai
 pandas
 openpyxl
+requests
 python-docx
 Pillow
